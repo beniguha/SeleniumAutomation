@@ -1,0 +1,24 @@
+package testcase;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
+import base.BaseTest;
+
+public class TestCase1 extends BaseTest{
+	
+	@Test
+	public static void LoginTest() throws InterruptedException {
+		driver.findElement(By.xpath(loc.getProperty("signin_link"))).click();
+		Thread.sleep(4000);
+		driver.findElement(By.xpath(loc.getProperty("email_field"))).sendKeys("beni.guha@gmail.com");
+		Thread.sleep(4000);
+		driver.findElement(By.xpath(loc.getProperty("signIn_button"))).click();
+		Thread.sleep(4000);
+		driver.findElement(By.xpath(loc.getProperty("otp_field"))).sendKeys("1234");
+		Thread.sleep(4000);
+		driver.findElement(By.xpath(loc.getProperty("verify_button"))).click();
+		Thread.sleep(4000);
+	}
+
+}

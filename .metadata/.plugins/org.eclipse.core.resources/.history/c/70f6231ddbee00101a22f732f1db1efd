@@ -1,0 +1,26 @@
+package base;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseTest {
+	
+	public static WebDriver driver;
+	public static Properties prop = new Properties();
+	public static FileReader fr;
+
+	public void SetUp() throws FileNotFoundException {
+		
+		if(driver==null) {
+			FileReader fr = new FileReader("D:\\Java\\AutomationTest\\automationWorkspace_1\\TestAutomationFramework\\src\\test\\resources\\configFiles\\config.properties");
+			prop.load(fr);
+		}
+		
+	}
+	public void tearDown() {
+		
+	}
+}

@@ -1,0 +1,20 @@
+package base;
+
+import java.io.FileReader;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseTest {
+	
+	public static WebDriver driver;
+	public static Properties p = new Properties();
+	public static FileReader fr = new FileReader();
+
+	public void SetUp() {
+		
+	}
+	public void tearDown() {
+		
+	}
+}

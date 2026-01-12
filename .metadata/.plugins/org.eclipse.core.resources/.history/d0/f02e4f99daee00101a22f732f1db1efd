@@ -1,0 +1,18 @@
+package base;
+
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseTest {
+	
+	public static WebDriver driver;
+	public static Properties p = new Properties();
+
+	public void SetUp() {
+		
+	}
+	public void tearDown() {
+		
+	}
+}

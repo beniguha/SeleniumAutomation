@@ -1,0 +1,868 @@
+!SESSION 2026-01-12 13:03:37.739 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file D:\Java\AutomationTest\automationWorkspace_1\.metadata\.bak_0.log
+Created Time: 2026-01-12 15:05:38.229
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 15:05:38.231
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 15:05:38.306
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 15:05:38.331
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 15:05:38.334
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 15:05:38.339
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 15:05:38.341
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.testng.eclipse 1 0 2026-01-12 15:05:52.994
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61649 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--806223078\testng-customsuite.xml
+java -ea -classpath C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar:C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar:C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar:C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar:C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar:C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar:C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar:C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar:C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar:C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar:C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar:C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar:C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar:C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar:C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar:C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar:C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar:C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar:C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar org.testng.remote.RemoteTestNG -serport 61649 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--806223078\testng-customsuite.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-01-12 15:07:34.299
+!MESSAGE ExecutionException occurred during shutdown of EndpointProxy for org.eclipse.lsp4j.jsonrpc.RemoteEndpoint@1c57e29a
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper$LanguageServerContext.close(LanguageServerWrapper.java:228)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: The pipe is being closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:449)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:171)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at jdk.proxy14/jdk.proxy14.$Proxy35.shutdown(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper$LanguageServerContext.close(LanguageServerWrapper.java:226)
+	... 7 more
+Caused by: java.io.IOException: The pipe is being closed
+	at java.base/java.io.FileOutputStream.writeBytes(Native Method)
+	at java.base/java.io.FileOutputStream.write(FileOutputStream.java:367)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:125)
+	at java.base/java.io.BufferedOutputStream.implFlush(BufferedOutputStream.java:252)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:240)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 12 more
+!SESSION 2026-01-12 15:54:15.793 -----------------------------------------------
+eclipse.buildId=4.38.0.20251204-0849
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-12 16:00:19.019
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-01-12 16:00:42.817
+!MESSAGE Logback config file: D:\Java\AutomationTest\automationWorkspace_1\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-01-12 16:02:29.283
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:05:03.289
+!MESSAGE The POM for org.testng:testng:jar:5.14.3 is invalid, transitive dependencies (if any) will not be available: 1 problem was encountered while building the effective model for org.testng:testng:5.14.3
+[ERROR] 'dependencies.dependency.systemPath' for org.testng:guice:jar must specify an absolute path but is ${basedir}/lib-supplied/guice-2.0.jar @
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:05:03.336
+!MESSAGE The POM for org.testng:testng:jar:5.14.4 is invalid, transitive dependencies (if any) will not be available: 1 problem was encountered while building the effective model for org.testng:testng:5.14.4
+[ERROR] 'dependencies.dependency.systemPath' for org.testng:guice:jar must specify an absolute path but is /Users/cbeust/java/testng/target/checkout/lib-supplied/guice-2.0.jar @
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:05:03.362
+!MESSAGE The POM for org.testng:testng:jar:5.14.5 is invalid, transitive dependencies (if any) will not be available: 1 problem was encountered while building the effective model for org.testng:testng:5.14.5
+[ERROR] 'dependencies.dependency.systemPath' for org.testng:guice:jar must specify an absolute path but is /Users/cbeust/java/testng/target/checkout/lib-supplied/guice-2.0.jar @
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:05:05.573
+!MESSAGE The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+
+!ENTRY org.testng.eclipse 1 0 2026-01-12 16:05:16.102
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57051 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--1812270886\testng-customsuite.xml
+java -ea -classpath C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar:C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar:C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar:C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar:C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar:C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar:C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar:C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar:C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar:C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar:C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar:C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar:C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar:C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar:C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar:C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar:C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar:C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar:C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar org.testng.remote.RemoteTestNG -serport 57051 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--1812270886\testng-customsuite.xml
+
+!ENTRY org.eclipse.core.jobs 4 2 2026-01-12 16:06:13.907
+!MESSAGE IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+!STACK 0
+java.util.concurrent.TimeoutException: IJobChangeListener timeout detected. Further calls to IJobChangeListener may occur in random order and join(family) can return too soon. IJobChangeListener should return within 3000 ms. IJobChangeListener methods should not block. Possible deadlock.
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:106)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1873)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:250)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SUBENTRY 1 org.eclipse.core.jobs 4 2 2026-01-12 16:06:13.915
+!MESSAGE Thread that is running the IJobChangeListener: Error Stream Monitor for PID 13180 TestCase1
+	at org.eclipse.swt.internal.win32.OS.PostThreadMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.wakeThread(Display.java:5126)
+	at org.eclipse.swt.widgets.Synchronizer.addLast(Synchronizer.java:79)
+	at org.eclipse.swt.widgets.Synchronizer.asyncExec(Synchronizer.java:101)
+	at org.eclipse.ui.internal.UISynchronizer.asyncExec(UISynchronizer.java:115)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:797)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:123)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	at org.eclipse.ui.internal.progress.ProgressManager.addJobInfo(ProgressManager.java:712)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.updateFor(ProgressManager.java:500)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.scheduled(ProgressManager.java:474)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:153)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEventsAsync(JobListeners.java:140)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:80)
+	at org.eclipse.core.internal.jobs.JobManager.withWriteLock(JobManager.java:571)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1474)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:402)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:654)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:698)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:281)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:276)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$StreamListener.streamAppended(ProcessConsole.java:848)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.fireStreamAppended(OutputStreamMonitor.java:154)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:242)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:211)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+All thread infos: 
+"main" prio=6 Id=1 BLOCKED on java.lang.Class@5a6d30e2 owned by "Error Stream Monitor for PID 13180 TestCase1" Id=88
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:795)
+	-  blocked on java.lang.Class@5a6d30e2
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.computeName(ProcessConsole.java:354)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.resetName(ProcessConsole.java:649)
+	-  locked org.eclipse.debug.internal.ui.views.console.ProcessConsole@610f3f1b
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.lambda$1(ProcessConsole.java:355)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$$Lambda/0x00000227a30932f0.run(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4260)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3372)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	...
+
+"Reference Handler" daemon prio=10 Id=9 RUNNABLE
+	at java.base@21.0.9/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.9/java.lang.ref.Reference.processPendingReferences(Reference.java:246)
+	at java.base@21.0.9/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)
+
+"Finalizer" daemon prio=8 Id=10 WAITING on java.lang.ref.NativeReferenceQueue$Lock@1129c9dd
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@1129c9dd
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at java.base@21.0.9/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	at java.base@21.0.9/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89)
+	at java.base@21.0.9/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)
+
+"Signal Dispatcher" daemon prio=9 Id=11 RUNNABLE
+
+"Attach Listener" daemon prio=5 Id=12 RUNNABLE
+
+"Notification Thread" daemon prio=9 Id=19 RUNNABLE
+
+"Common-Cleaner" daemon prio=8 Id=20 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7686f892
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7686f892
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1886)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@21.0.9/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+"Active Thread: Equinox Container: da849523-f29e-47af-a435-cf3707842d22" prio=5 Id=25 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6f1d1ec3
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6f1d1ec3
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Framework Event Dispatcher: Equinox Container: da849523-f29e-47af-a435-cf3707842d22" daemon prio=5 Id=27 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@641c7333
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@641c7333
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Start Level: Equinox Container: da849523-f29e-47af-a435-cf3707842d22" daemon prio=5 Id=28 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3d8e35e1
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3d8e35e1
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Bundle File Closer" daemon prio=5 Id=30 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3b24294c
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@3b24294c
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"SCR Component Actor" daemon prio=5 Id=31 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a2714d2
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7a2714d2
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"EMF Reference Cleaner" daemon prio=5 Id=32 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7d4be653
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7d4be653
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"Worker-JM" prio=5 Id=34 WAITING on java.util.ArrayList@7ac98722
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on java.util.ArrayList@7ac98722
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+
+"Gogo shell" prio=5 Id=35 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@603daf7e
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@603daf7e
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"SWTResourceTracker" daemon prio=8 Id=38 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@227eb62f
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@227eb62f
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1886)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at java.base@21.0.9/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	...
+
+"JNA Cleaner" daemon prio=6 Id=39 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@25b54d
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@25b54d
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1886)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+	at com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+"Worker-0" prio=5 Id=40 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:205)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Git Repository Closer" daemon prio=6 Id=41 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3ba8cd01
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3ba8cd01
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"logback-1" daemon prio=5 Id=42 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cb0cb95
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cb0cb95
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1797)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	...
+
+"Java2D Disposer" daemon prio=10 Id=44 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@41128493
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@41128493
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:67)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158)
+	...
+
+"AWT-Windows" daemon prio=6 Id=46 RUNNABLE (in native)
+	at java.desktop@21.0.9/sun.awt.windows.WToolkit.eventLoop(Native Method)
+	at java.desktop@21.0.9/sun.awt.windows.WToolkit.run(WToolkit.java:360)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+
+"logback-2" daemon prio=5 Id=50 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cb0cb95
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cb0cb95
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"Java indexing" daemon prio=4 Id=51 WAITING on org.eclipse.jdt.internal.core.search.indexing.IndexManager@694eda7f
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jdt.internal.core.search.indexing.IndexManager@694eda7f
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:502)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager$$Lambda/0x00000227a2895008.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+
+"EventAdmin Async Event Dispatcher Thread" daemon prio=6 Id=55 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@14f3c292
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@14f3c292
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"Worker-1" prio=5 Id=56 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:205)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-3" prio=5 Id=58 RUNNABLE
+	at java.management@21.0.9/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.9/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:518)
+	at java.management@21.0.9/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:506)
+	at org.eclipse.core.internal.jobs.JobListeners.waitAndSendEvents(JobListeners.java:120)
+	at org.eclipse.core.internal.jobs.JobManager.startJob(JobManager.java:1873)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:250)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-6" prio=5 Id=61 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:205)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-8: Process Console Input Job" prio=5 Id=63 WAITING on org.eclipse.ui.console.IOConsoleInputStream@7e755ffa
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.ui.console.IOConsoleInputStream@7e755ffa
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:140)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:91)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:113)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:947)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+"pool-3-thread-1" prio=5 Id=65 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2b166abb
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2b166abb
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"pool-4-thread-1" prio=5 Id=66 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3414c084
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3414c084
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+	...
+
+"org.eclipse.jdt.internal.ui.text.JavaReconciler" daemon prio=1 Id=68 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@3ef973c6
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@3ef973c6
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:613)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:174)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+
+"logback-3" daemon prio=5 Id=69 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cb0cb95
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cb0cb95
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"Thread-9" prio=5 Id=70 TIMED_WAITING
+	at java.base@21.0.9/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.9/java.lang.Thread.sleep(Thread.java:509)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+"Worker-10" prio=5 Id=72 BLOCKED on java.lang.Class@5a6d30e2 owned by "Error Stream Monitor for PID 13180 TestCase1" Id=88
+	at org.eclipse.swt.widgets.Display.getThread(Display.java:2697)
+	-  blocked on java.lang.Class@5a6d30e2
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:120)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	at org.eclipse.ui.internal.progress.ProgressManager.refreshJobInfo(ProgressManager.java:636)
+	at org.eclipse.ui.internal.progress.ProgressManager$1.aboutToRun(ProgressManager.java:425)
+	at org.eclipse.core.internal.jobs.JobListeners$$Lambda/0x00000227a223c658.notify(Unknown Source)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEvent(JobListeners.java:153)
+	at org.eclipse.core.internal.jobs.JobListeners.sendEventsAsync(JobListeners.java:140)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@6a27716c
+
+"Worker-11: TestNG run wrapper job" prio=5 Id=73 TIMED_WAITING on org.eclipse.core.internal.jobs.Semaphore@727c8d21
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.Semaphore@727c8d21
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:47)
+	at org.eclipse.core.internal.jobs.OrderedLock.doAcquire(OrderedLock.java:200)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:131)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:102)
+	at org.eclipse.core.internal.jobs.OrderedLock.acquire(OrderedLock.java:87)
+	at org.testng.eclipse.ui.TestRunnerViewPart$IsRunningJob.run(TestRunnerViewPart.java:1163)
+	...
+
+"Worker-12" prio=5 Id=74 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:205)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Worker-15" prio=5 Id=77 TIMED_WAITING on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.core.internal.jobs.WorkerPool@36e3d2fc
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.core.internal.jobs.WorkerPool.sleep(WorkerPool.java:205)
+	at org.eclipse.core.internal.jobs.WorkerPool.startJob(WorkerPool.java:248)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+"Provisioning Event Dispatcher" daemon prio=5 Id=78 WAITING on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@60fe730a
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.osgi.framework.eventmgr.EventManager$EventThread@60fe730a
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.getNextEvent(EventManager.java:396)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+"logback-4" daemon prio=5 Id=80 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cb0cb95
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@6cb0cb95
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1177)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	...
+
+"org.eclipse.jface.text.reconciler.MonoReconciler" daemon prio=1 Id=85 TIMED_WAITING on org.eclipse.jface.text.reconciler.DirtyRegionQueue@156c4b90
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on org.eclipse.jface.text.reconciler.DirtyRegionQueue@156c4b90
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:613)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundWorker.run(AbstractReconciler.java:174)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+
+"Process monitor for PID 13180 TestCase1" daemon prio=5 Id=86 RUNNABLE (in native)
+	at java.base@21.0.9/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@21.0.9/java.lang.ProcessImpl.waitFor(ProcessImpl.java:575)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:527)
+
+"Output Stream Monitor for PID 13180 TestCase1" daemon prio=1 Id=87 RUNNABLE (in native)
+	at java.base@21.0.9/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.9/java.io.FileInputStream.read(FileInputStream.java:287)
+	at java.base@21.0.9/java.io.BufferedInputStream.read1(BufferedInputStream.java:345)
+	at java.base@21.0.9/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420)
+	at java.base@21.0.9/java.io.BufferedInputStream.read(BufferedInputStream.java:399)
+	at java.base@21.0.9/java.io.FilterInputStream.read(FilterInputStream.java:95)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:235)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:211)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@4491f440
+
+"Error Stream Monitor for PID 13180 TestCase1" daemon prio=1 Id=88 RUNNABLE (in native)
+	at org.eclipse.swt.internal.win32.OS.PostThreadMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.wakeThread(Display.java:5126)
+	at org.eclipse.swt.widgets.Synchronizer.addLast(Synchronizer.java:79)
+	at org.eclipse.swt.widgets.Synchronizer.asyncExec(Synchronizer.java:101)
+	at org.eclipse.ui.internal.UISynchronizer.asyncExec(UISynchronizer.java:115)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:797)
+	-  locked java.lang.Class@5a6d30e2
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:123)
+	at org.eclipse.jface.util.Throttler.throttledExec(Throttler.java:100)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@3620d06a
+
+"Input Stream Monitor for PID 13180 TestCase1" daemon prio=5 Id=89 WAITING on java.lang.Object@7dd8011a
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.Object@7dd8011a
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:366)
+	at java.base@21.0.9/java.lang.Object.wait(Object.java:339)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:190)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:162)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda/0x00000227a306ce98.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Thread.java:1596)
+	at java.base@21.0.9/java.lang.Thread.run(Thread.java:1583)
+
+"testng-sync-runnable-executor" daemon prio=6 Id=90 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3ce8a30b
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3ce8a30b
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1746)
+	at java.base@21.0.9/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:485)
+	at java.base@21.0.9/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:673)
+	...
+
+"TestNG - ServerConnection" prio=5 Id=91 RUNNABLE (in native)
+	at java.base@21.0.9/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base@21.0.9/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base@21.0.9/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:256)
+	at java.base@21.0.9/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:307)
+	at java.base@21.0.9/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base@21.0.9/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base@21.0.9/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base@21.0.9/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350)
+	...
+
+	Number of locked synchronizers = 3
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@44ef8050
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@74fcbb27
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@4991b473
+
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:07:40.107
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:07:40.164
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:07:45.973
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:07:45.978
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:07:45.982
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:07:45.987
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.testng.eclipse 1 0 2026-01-12 16:08:04.627
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57146 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--999098890\testng-customsuite.xml
+java -ea -classpath C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar:C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar:C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar:C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar:C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar:C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar:C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar:C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar:C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar:C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar:C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar:C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar:C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar:C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar:C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar:C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar:C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar:C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar:C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar org.testng.remote.RemoteTestNG -serport 57146 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--999098890\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:12:59.611
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:12:59.661
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:12:59.720
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:12:59.723
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:12:59.726
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:12:59.729
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.testng.eclipse 1 0 2026-01-12 16:13:11.677
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57232 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-1026864580\testng-customsuite.xml
+java -ea -classpath C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar:C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar:C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar:C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar:C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar:C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar:C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar:C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar:C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar:C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar:C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar:C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar:C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar:C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar:C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar:C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar:C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar:C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar:C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar org.testng.remote.RemoteTestNG -serport 57232 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse-1026864580\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:56:44.871
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:56:44.920
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:56:45.454
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:56:45.457
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:56:45.460
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:56:45.465
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:07.962
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:08.021
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:08.041
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:08.045
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:08.048
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:08.052
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:12.388
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:12.410
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:12.427
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:12.434
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:12.437
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:57:12.444
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:59:57.609
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:59:57.667
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:59:57.683
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:59:57.686
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:59:57.689
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 16:59:57.692
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:07.865
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:07.894
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:07.935
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:07.943
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:07.965
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:07.970
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:15.683
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:15.726
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:15.746
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:15.749
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:15.752
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:15.755
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:49.815
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:49.838
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:49.990
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:49.994
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:50.008
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:01:50.015
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:07:54.214
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:07:54.237
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:07:54.330
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:07:54.333
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:07:54.336
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:07:54.339
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:15.042
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:15.066
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:15.092
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:15.095
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:15.098
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:15.102
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:20.291
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:20.312
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:20.363
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:20.367
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:20.370
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:08:20.373
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:09:38.232
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:09:38.282
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:09:38.299
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:09:38.302
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:09:38.305
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-01-12 17:09:38.309
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.testng.eclipse 1 0 2026-01-12 17:10:52.564
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57652 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--642732000\testng-customsuite.xml
+java -ea -classpath C:\Users\user\eclipse\java-2025-12\eclipse\configuration\org.eclipse.osgi\535\0\.cp\lib\testng-remote.jar:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\test-classes:D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\target\classes:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.0\selenium-java-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.0\selenium-api-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.0\selenium-chrome-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.0\selenium-chromium-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.0\selenium-json-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.0\selenium-manager-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.18.0\selenium-devtools-v119-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.0\selenium-devtools-v120-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.0\selenium-devtools-v121-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.0\selenium-devtools-v85-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.0\selenium-edge-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.0\selenium-firefox-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.0\selenium-http-4.18.0.jar:C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.0\selenium-ie-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.0\selenium-remote-driver-4.18.0.jar:C:\Users\user\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar:C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar:C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar:C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar:C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar:C:\Users\user\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar:C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar:C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.0\selenium-os-4.18.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.0\selenium-safari-driver-4.18.0.jar:C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.0\selenium-support-4.18.0.jar:C:\Users\user\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar:C:\Users\user\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar:C:\Users\user\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar:C:\Users\user\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar:C:\Users\user\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar:C:\Users\user\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar:C:\Users\user\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar:C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar:C:\Users\user\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar:C:\Users\user\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar:C:\Users\user\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar:C:\Users\user\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar:C:\Users\user\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar:C:\Users\user\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar:C:\Users\user\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar:C:\Users\user\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar:C:\Users\user\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\user\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\user\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar:C:\Users\user\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar:C:\Users\user\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar:C:\Users\user\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar:C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar org.testng.remote.RemoteTestNG -serport 57652 -protocol json -d D:\Java\AutomationTest\automationWorkspace_1\TestAutomationFramework\test-output C:\Users\user\AppData\Local\Temp\testng-eclipse--642732000\testng-customsuite.xml

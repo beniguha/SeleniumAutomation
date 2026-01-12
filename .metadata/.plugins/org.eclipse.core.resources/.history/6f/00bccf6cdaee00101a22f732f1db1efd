@@ -1,0 +1,15 @@
+package base;
+
+import org.openqa.selenium.WebDriver;
+
+public class BaseTest {
+	
+	public static WebDriver driver;
+
+	public void SetUp() {
+		
+	}
+	public void tearDown() {
+		
+	}
+}

@@ -1,0 +1,14 @@
+package utilites;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class ReadPropertyFile {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		// TODO Auto-generated method stub
+		FileReader fr = new FileReader("D:\\Java\\AutomationTest\\automationWorkspace_1\\TestAutomationFramework\\src\\test\\resources\\configFiles\\config.properties");
+		Properties p = new Properties();
+	}
+
+}

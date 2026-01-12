@@ -1,0 +1,5 @@
+signin_link=//a[@class='zgh-login'][normalize-space()='Sign In']
+email_field=//input[@id='login_id']
+signIn_button=//button[@id='nextbtn']
+otp_field=//div[@id='otp']//input
+verify_button=//button[@id='nextbtn']//span[contains(text(),'Verify')]
